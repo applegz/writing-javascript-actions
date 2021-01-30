@@ -24,3 +24,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v1
+      
+      - name: hello-action
+        uses: ./.github/actions/hello-world
