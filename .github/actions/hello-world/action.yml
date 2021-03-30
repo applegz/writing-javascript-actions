@@ -1,7 +1,14 @@
-name: 'my hello action'
+# name: JS Actions
 
-description: 'say hello with GitHub Actions'
+# on: [push]
 
-runs:
-  using: 'node12'
-  main: 'main.js'
+# jobs:
+#   action:
+
+#     runs-on: ubuntu-latest
+
+#     steps:
+#     - uses: actions/checkout@v1
+
+#     - name: hello-action
+#       uses: ./.github/actions/hello-world
